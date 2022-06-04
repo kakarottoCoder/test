@@ -11,4 +11,6 @@ func GetUser(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	io.WriteString(w, "hello,Git！")
 	io.WriteString(w, "初始化")
 	io.WriteString(w, "正式开发1")
+	io.WriteString(w, "正式开发2")
+	io.WriteString(w, "正式开发3")
 }
